@@ -11,4 +11,5 @@ message Person {
     string name = 1;
     int32 age = 2;
     repeated Activity activities = 3;
+    bool active = 4;
 }
